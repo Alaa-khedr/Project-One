@@ -3,7 +3,7 @@ import whisper
 import os
 
 # Specify the path to the FFmpeg executable
-ffmpeg_path = "/path/to/ffmpeg"  # Update with the correct path
+ffmpeg_path = r'C:\ffmpeg\bin\ffmpeg.exe' # Update with the correct path
 
 # Set the FFmpeg executable path
 os.environ["FFMPEG_BINARY"] = ffmpeg_path
