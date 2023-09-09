@@ -1,14 +1,5 @@
 import streamlit as st
 import whisper
-import os
-
-# Specify the path to the FFmpeg executable
-ffmpeg_path = r'"C:\ffmpeg-6.0\bin\ffmpeg.exe"'  # Update with the correct path
-
-# Set the FFmpeg executable path
-os.environ["FFMPEG_BINARY"] = ffmpeg_path
-
-# Rest of your Streamlit code
 
 st.title('Recordify ')
 
